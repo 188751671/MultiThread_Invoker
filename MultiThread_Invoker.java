@@ -54,7 +54,7 @@ public class MultiThread_Invoker {
 
         ProcessBuilder builder = new ProcessBuilder(args[0]);
         builder.redirectOutput();
-        System.out.println(builder.directory());
+        //System.out.println(builder.directory());
         Process process = builder.start();
 
 //
