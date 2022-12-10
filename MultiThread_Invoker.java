@@ -1,7 +1,5 @@
 import java.io.IOException;
 
-// testing Commit by testing account...............
-
 /*
     Called applications should be like:
 
@@ -12,8 +10,6 @@ import java.io.IOException;
         if(!args[0].isEmpty){
             a = args[0];
         }
-
-// this line is deleted for testing
 
         final_result = Functions to call
 
@@ -32,8 +28,7 @@ import java.io.IOException;
 public class MultiThread_Invoker {
     public static void main(String args[]) throws IOException {
         
-// this line is commented for testing
-        //int maxNumberOfThreads = 10;
+        int maxNumberOfThreads = 10;
 
         if (args[0].isEmpty()) return;
         if (args.length>1) {
